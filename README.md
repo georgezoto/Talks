@@ -1,5 +1,5 @@
 # Talks
-A companion list of repositories for my talks and presentations at different events, meetups and conferences.
+A companion list of repositories for my talks and presentations at different events, meetups and conferences.\
 Feel free to reach out if you would like to use or reference my material and content.
 
 [A2A Summit NYC 2025](https://github.com/georgezoto/Talks/tree/main/A2A%20Summit%20NYC%202025)
