@@ -1,6 +1,8 @@
 # A2A Summit - The Internet of Agents is Here
 By **George Zoto** Original Article Published On [LinkedIn - George Zoto](https://www.linkedin.com/pulse/a2a-summit-internet-agents-here-george-zoto-vbtce)
 
+![alt text](A2A Summit NYC 2025/media/Photo 3.jpg)
+
 ---
 
 ## Introduction
@@ -8,6 +10,8 @@ By **George Zoto** Original Article Published On [LinkedIn - George Zoto](https:
 I recently attended the **A2A (Agent-to-Agent) Summit** in San Francisco, and the energy was palpable. If 2023 was the year of the LLM, and 2024 is the year of the Agent, then 2025 is shaping up to be the year of the **Internet of Agents**.
 
 The core premise of the summit was simple yet profound: the internet, as we know it, was designed for humans to navigate. However, we are rapidly moving toward a future where the primary "users" of the internet will be AI agents interacting with other AI agents.
+
+![alt text](A2A Summit NYC 2025/media/Photo 2.jpg)
 
 ## The Paradigm Shift: From B2C/B2B to A2A
 
@@ -19,6 +23,7 @@ In this new paradigm:
 * **Agents** negotiate, execute tasks, and exchange value.
 * **Infrastructure** shifts from being human-centric (GUIs) to being agent-centric (APIs and structured data).
 
+![alt text](A2A Summit NYC 2025/media/Photo 5.jpg)
 ---
 
 ## Key Takeaways from the Summit
@@ -32,6 +37,8 @@ We are seeing the crystallization of a new "Agentic Stack." This includes:
 * **Memory & Context:** Vector databases and long-term memory solutions.
 * **Connectivity & Protocols:** This is the "A2A" layer—how agents find and talk to each other.
 
+![alt text](A2A Summit NYC 2025/media/Photo 4.jpg)
+
 ### 2. The Need for Standardization
 
 One of the hottest topics was the **Model Context Protocol (MCP)** recently introduced by Anthropic, and other emerging standards. For the Internet of Agents to scale, we need universal protocols for:
@@ -40,14 +47,17 @@ One of the hottest topics was the **Model Context Protocol (MCP)** recently intr
 * **Authentication:** How do agents verify each other’s identity?
 * **Negotiation:** How do they agree on terms of service or price?
 
+![alt text](A2A Summit NYC 2025/media/Photo 6.jpg)
+
 ### 3. Identity and Security in an Agent-First World
 
 If an agent is acting on my behalf, how do I ensure it doesn't overstep? The summit delved deep into **Proof of Personhood** and **Delegated Authority**. We need cryptographic "handshakes" that allow agents to prove they have the permission to spend money or access sensitive data without exposing the user's primary credentials.
 
+![alt text](A2A Summit NYC 2025/media/Photo 7.jpg)
+
 ### 4. New Economic Models
 
 We are moving toward a "Micro-transaction Economy." When agents talk to agents, they might perform thousands of tiny tasks per hour. Traditional credit card processing isn't built for 0.01-cent transactions. This is where blockchain and stablecoins are finding a real, pragmatic use case—providing the rails for high-frequency, low-value agentic commerce.
-
 ---
 
 ## The "Agentic Web" vs. The "Legacy Web"
@@ -56,6 +66,7 @@ The "Legacy Web" is made of HTML meant to be rendered by a browser for a human e
 
 Speakers emphasized that companies that don't provide "agent-friendly" interfaces (APIs) will effectively become invisible to the next generation of internet users (the agents).
 
+![alt text](A2A Summit NYC 2025/media/Photo 8.jpg)
 ---
 
 ## Conclusion: The Path Forward
@@ -70,3 +81,4 @@ As we move forward, the focus will shift from "What can this AI tell me?" to "Wh
 
 Original Article Published On: [LinkedIn - George Zoto](https://www.linkedin.com/pulse/a2a-summit-internet-agents-here-george-zoto-vbtce)
 
+![alt text](A2A Summit NYC 2025/media/Photo 9.jpg)
