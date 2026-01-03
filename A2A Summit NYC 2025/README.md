@@ -1,5 +1,5 @@
 # A2A Summit - The Internet of Agents is Here
-By **George Zoto** *Published on [LinkedIn - George Zoto*](https://www.google.com/search?q=https://www.linkedin.com/pulse/a2a-summit-internet-agents-here-george-zoto-vbtce/)
+By **George Zoto** Published on [LinkedIn - George Zoto](https://www.google.com/search?q=https://www.linkedin.com/pulse/a2a-summit-internet-agents-here-george-zoto-vbtce/)
 
 ---
 
@@ -68,5 +68,5 @@ As we move forward, the focus will shift from "What can this AI tell me?" to "Wh
 
 ---
 
-*Original Article Link: [LinkedIn - George Zoto*](https://www.google.com/search?q=https://www.linkedin.com/pulse/a2a-summit-internet-agents-here-george-zoto-vbtce/)
+Original Article Link: [LinkedIn - George Zoto](https://www.google.com/search?q=https://www.linkedin.com/pulse/a2a-summit-internet-agents-here-george-zoto-vbtce/)
 
