@@ -11,7 +11,7 @@ I recently attended the **A2A (Agent-to-Agent) Summit** in San Francisco, and th
 
 The core premise of the summit was simple yet profound: the internet, as we know it, was designed for humans to navigate. However, we are rapidly moving toward a future where the primary "users" of the internet will be AI agents interacting with other AI agents.
 
-![alt text](A2A Summit NYC 2025/media/Photo%202.jpg)
+![alt text](media/Photo%202.jpg)
 
 ## The Paradigm Shift: From B2C/B2B to A2A
 
@@ -23,7 +23,7 @@ In this new paradigm:
 * **Agents** negotiate, execute tasks, and exchange value.
 * **Infrastructure** shifts from being human-centric (GUIs) to being agent-centric (APIs and structured data).
 
-![alt text](A2A Summit NYC 2025/media/Photo%205.jpg)
+![alt text](media/Photo%205.jpg)
 ---
 
 ## Key Takeaways from the Summit
@@ -37,7 +37,7 @@ We are seeing the crystallization of a new "Agentic Stack." This includes:
 * **Memory & Context:** Vector databases and long-term memory solutions.
 * **Connectivity & Protocols:** This is the "A2A" layer—how agents find and talk to each other.
 
-![alt text](A2A Summit NYC 2025/media/Photo%204.jpg)
+![alt text](media/Photo%204.jpg)
 
 ### 2. The Need for Standardization
 
@@ -47,13 +47,13 @@ One of the hottest topics was the **Model Context Protocol (MCP)** recently intr
 * **Authentication:** How do agents verify each other’s identity?
 * **Negotiation:** How do they agree on terms of service or price?
 
-![alt text](A2A Summit NYC 2025/media/Photo%206.jpg)
+![alt text](media/Photo%206.jpg)
 
 ### 3. Identity and Security in an Agent-First World
 
 If an agent is acting on my behalf, how do I ensure it doesn't overstep? The summit delved deep into **Proof of Personhood** and **Delegated Authority**. We need cryptographic "handshakes" that allow agents to prove they have the permission to spend money or access sensitive data without exposing the user's primary credentials.
 
-![alt text](A2A Summit NYC 2025/media/Photo%207.jpg)
+![alt text](media/Photo%207.jpg)
 
 ### 4. New Economic Models
 
@@ -66,7 +66,7 @@ The "Legacy Web" is made of HTML meant to be rendered by a browser for a human e
 
 Speakers emphasized that companies that don't provide "agent-friendly" interfaces (APIs) will effectively become invisible to the next generation of internet users (the agents).
 
-![alt text](A2A Summit NYC 2025/media/Photo%208.jpg)
+![alt text](media/Photo%208.jpg)
 ---
 
 ## Conclusion: The Path Forward
@@ -81,4 +81,4 @@ As we move forward, the focus will shift from "What can this AI tell me?" to "Wh
 
 Original Article Published On: [LinkedIn - George Zoto](https://www.linkedin.com/pulse/a2a-summit-internet-agents-here-george-zoto-vbtce)
 
-![alt text](A2A Summit NYC 2025/media/Photo%209.jpg)
+![alt text](media/Photo%209.jpg)
