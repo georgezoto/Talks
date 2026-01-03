@@ -1,7 +1,7 @@
 # A2A Summit - The Internet of Agents is Here
 By **George Zoto** Original Article Published On [LinkedIn - George Zoto](https://www.linkedin.com/pulse/a2a-summit-internet-agents-here-george-zoto-vbtce)
 
-![alt text](media/Photo 3.jpg)
+![alt text](media/Photo%203.jpg)
 
 ---
 
