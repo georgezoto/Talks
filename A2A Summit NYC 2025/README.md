@@ -24,6 +24,7 @@ In this new paradigm:
 * **Infrastructure** shifts from being human-centric (GUIs) to being agent-centric (APIs and structured data).
 
 ![alt text](media/Photo%205.jpg)
+
 ---
 
 ## Key Takeaways from the Summit
@@ -58,6 +59,7 @@ If an agent is acting on my behalf, how do I ensure it doesn't overstep? The sum
 ### 4. New Economic Models
 
 We are moving toward a "Micro-transaction Economy." When agents talk to agents, they might perform thousands of tiny tasks per hour. Traditional credit card processing isn't built for 0.01-cent transactions. This is where blockchain and stablecoins are finding a real, pragmatic use case—providing the rails for high-frequency, low-value agentic commerce.
+
 ---
 
 ## The "Agentic Web" vs. The "Legacy Web"
@@ -67,6 +69,7 @@ The "Legacy Web" is made of HTML meant to be rendered by a browser for a human e
 Speakers emphasized that companies that don't provide "agent-friendly" interfaces (APIs) will effectively become invisible to the next generation of internet users (the agents).
 
 ![alt text](media/Photo%208.jpg)
+
 ---
 
 ## Conclusion: The Path Forward
