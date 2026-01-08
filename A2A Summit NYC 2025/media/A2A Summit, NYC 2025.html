@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2A Summit: Multi-Agent Workflows</title>
+    <style>
+        :root {
+            --primary-bg: #0f172a;
+            --slide-bg: #1e293b;
+            --accent-blue: #38bdf8;
+            --accent-green: #22c55e;
+            --accent-purple: #a855f7;
+            --text-main: #f1f5f9;
+            --text-dim: #94a3b8;
+            --border: #334155;
+            --code-bg: #000000;
+        }
+
+        body, html {
+            margin: 0; padding: 0; height: 100%;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-main);
+            overflow: hidden;
+        }
+
+        .deck { width: 100vw; height: 100vh; display: flex; align-items: center; justify-content: center; position: relative; }
+
+        .slide {
+            display: none; width: 85%; max-width: 1150px; height: 85%;
+            background: var(--slide-bg); padding: 50px; border-radius: 16px;
+            border: 1px solid var(--border); box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 0.4s ease-out;
+        }
+
+        .slide.active { display: flex; flex-direction: column; }
+
+        @keyframes fadeIn { from { opacity: 0; transform: scale(0.98); } to { opacity: 1; transform: scale(1); } }
+
+        h1 { font-size: 3rem; color: var(--accent-blue); margin-bottom: 10px; }
+        h2 { font-size: 2rem; border-bottom: 2px solid var(--accent-blue); padding-bottom: 10px; margin-bottom: 25px; }
+        h3 { color: var(--accent-green); margin-top: 15px; margin-bottom: 5px; }
+        p { font-size: 1.1rem; line-height: 1.5; color: var(--text-dim); }
+
+        /* Workflow Graphics */
+        .workflow-container {
+            display: flex; align-items: center; justify-content: space-between;
+            margin-top: 40px; padding: 20px; background: rgba(0,0,0,0.2); border-radius: 12px;
+        }
+        .agent-node {
+            background: var(--primary-bg); border: 2px solid var(--border);
+            padding: 20px; border-radius: 10px; text-align: center; width: 220px;
+        }
+        .agent-node.active-node { border-color: var(--accent-blue); box-shadow: 0 0 15px rgba(56, 189, 248, 0.3); }
+        .arrow { font-size: 2rem; color: var(--accent-dim); }
+
+        pre {
+            background: var(--code-bg); padding: 15px; border-radius: 8px;
+            border: 1px solid var(--accent-blue); overflow-x: auto;
+            font-family: 'Consolas', monospace; font-size: 0.85rem; color: #d1d5db;
+        }
+        .code-key { color: #818cf8; }
+        .code-string { color: #34d399; }
+
+        .controls { position: absolute; bottom: 30px; right: 50px; display: flex; gap: 20px; z-index: 100; }
+        button { background: var(--accent-blue); color: var(--primary-bg); border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+        .progress { position: absolute; bottom: 0; left: 0; height: 6px; background: var(--accent-blue); transition: width 0.3s; }
+    </style>
+</head>
+<body>
+
+    <div class="deck">
+        <div class="slide active">
+            <h1>A2A Summit, NYC 2025</h1>
+            <p>Key Takeaways and Insights: Building Orchestrated Systems</p>
+	    <p>Author: George Zoto</p>
+            <div style="margin-top: 60px;">
+                <p><strong>Topic:</strong> Scaling from individual bots to interoperable workflows.</p>
+                <p><strong>Created by Google & The Linux Foundation</strong></p>
+	    </div>
+        </div>
+
+        <div class="slide">
+            <h2>The 4 Pillars of A2A</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div>
+                    <h3>1. Universal Translation</h3>
+                    <p>JSON-RPC 2.0 payloads for vendor-agnostic messaging.</p>
+                </div>
+                <div>
+                    <h3>2. Capability Discovery</h3>
+                    <p>Agents broadcast skills via <code>agent.json</code> (The Agent Card).</p>
+                </div>
+                <div>
+                    <h3>3. Task Lifecycle</h3>
+                    <p>Managing state and "Artifact" hand-offs between agents.</p>
+                </div>
+                <div>
+                    <h3>4. Decentralized Trust</h3>
+                    <p>Standardized OIDC auth for secure collaboration.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>Workflow in Action: Research to Deck</h2>
+            <p>How A2A solves the hand-off between specialized agents.</p>
+            
+            <div class="workflow-container">
+                <div class="agent-node active-node">
+                    <div style="font-size: 0.8rem; color: var(--accent-blue);">AGENT 1</div>
+                    <div style="font-weight: bold;">Researcher</div>
+                    <div style="font-size: 0.7rem; color: var(--accent-green);">OUTPUT: Report.pdf</div>
+                </div>
+                <div class="arrow">➔</div>
+                <div class="agent-node active-node">
+                    <div style="font-size: 0.8rem; color: var(--accent-blue);">AGENT 2</div>
+                    <div style="font-weight: bold;">Validator</div>
+                    <div style="font-size: 0.7rem; color: var(--accent-green);">OUTPUT: Verified_Data.json</div>
+                </div>
+                <div class="arrow">➔</div>
+                <div class="agent-node active-node">
+                    <div style="font-size: 0.8rem; color: var(--accent-blue);">AGENT 3</div>
+                    <div style="font-weight: bold;">Presenter</div>
+                    <div style="font-size: 0.7rem; color: var(--accent-green);">OUTPUT: Final_Deck.pptx</div>
+                </div>
+            </div>
+
+            <div style="margin-top: 30px;">
+                <h3>The "Hand-off" Logic:</h3>
+                <ul>
+                    <li><strong>Task Lifecycle:</strong> Agent 2 waits for Agent 1 to reach <code>"status": "completed"</code>.</li>
+                    <li><strong>Artifacts:</strong> Agent 2 receives the <code>artifact_id</code> from Agent 1 as its input.</li>
+                    <li><strong>Autonomous Hire:</strong> The Orchestrator uses <strong>Agent Cards</strong> to find the best "Validator" for the specific research topic.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>Engineering: The Task Request</h2>
+            <p>Example of Agent 3 (Presenter) requesting data from Agent 2 (Validator).</p>
+            <pre>
+{
+  <span class="code-key">"jsonrpc"</span>: <span class="code-string">"2.0"</span>,
+  <span class="code-key">"method"</span>: <span class="code-string">"createTask"</span>,
+  <span class="code-key">"params"</span>: {
+    <span class="code-key">"capability"</span>: <span class="code-string">"generate-presentation"</span>,
+    <span class="code-key">"inputs"</span>: {
+      <span class="code-key">"source_artifact"</span>: <span class="code-string">"artifact-882-verified-data"</span>,
+      <span class="code-key">"template"</span>: <span class="code-string">"corporate-dark"</span>
+    },
+    <span class="code-key">"callback_url"</span>: <span class="code-string">"https://orchestrator.internal/hooks/a2a"</span>
+  }
+}</pre>
+        </div>
+
+        <div class="slide">
+            <h2>A2A vs. MCP</h2>
+            <p>Choosing the right protocol for the right job.</p>
+            <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+                <tr style="border-bottom: 2px solid var(--accent-blue); color: var(--accent-blue);">
+                    <th style="text-align: left; padding: 10px;">Context</th>
+                    <th style="text-align: left; padding: 10px;">MCP (The Tool Belt)</th>
+                    <th style="text-align: left; padding: 10px;">A2A (The Network)</th>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"><strong>Connection</strong></td>
+                    <td style="padding: 10px;">Model ↔ Local Data/Files</td>
+                    <td style="padding: 10px;">Agent ↔ Remote Agent</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"><strong>Integration</strong></td>
+                    <td style="padding: 10px;">Vertical (Internal)</td>
+                    <td style="padding: 10px;">Horizontal (Cross-Org)</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"><strong>Example</strong></td>
+                    <td style="padding: 10px;">Reading your local GitHub</td>
+                    <td style="padding: 10px;">Hiring a Legal Compliance bot</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="slide">
+            <h2>Strategic Roadmap for Product</h2>
+            <ul>
+                <li><strong>Phase 1: Componentization.</strong> Break monolith features into "Agentic Services."</li>
+                <li><strong>Phase 2: Capability Discovery.</strong> Publish <code>agent.json</code> for every internal micro-service.</li>
+                <li><strong>Phase 3: Ecosystem Expansion.</strong> Allow 3rd-party A2A agents to trigger our workflows securely.</li>
+            </ul>
+            <div style="background: var(--primary-bg); padding: 20px; border-left: 5px solid var(--accent-purple); margin-top: 30px;">
+                <p style="color: var(--text-main); font-weight: bold;">The Goal: A "Plug-and-Play" product architecture where our Researcher can work with ANY A2A-compliant Validator on the market.</p>
+            </div>
+        </div>
+
+        <div class="progress" id="progress"></div>
+        <div class="controls">
+            <button onclick="changeSlide(-1)">Back</button>
+            <button onclick="changeSlide(1)">Next</button>
+        </div>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const progress = document.getElementById('progress');
+
+        function updateSlide() {
+            slides.forEach((slide, index) => {
+                slide.classList.toggle('active', index === currentSlide);
+            });
+            progress.style.width = ((currentSlide + 1) / slides.length) * 100 + '%';
+        }
+
+        function changeSlide(direction) {
+            currentSlide = Math.max(0, Math.min(slides.length - 1, currentSlide + direction));
+            updateSlide();
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === ' ') changeSlide(1);
+            if (e.key === 'ArrowLeft') changeSlide(-1);
+        });
+
+        updateSlide();
+    </script>
+</body>
+</html>
