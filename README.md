@@ -16,3 +16,8 @@ Feel free to reach out if you would like to use or reference my material and con
 * Community and Collaboration
 * Full session recordings [here](https://www.youtube.com/watch?v=cSLmR2eX4xE&list=PLkDaE6sCZn6GAEJC0Aj1XyK6W-jYyCeSh&index=1)
 * Presentation slides [here](https://docs.google.com/document/d/1tGxWWZQUSxniA4sb6_bhv7WZNDSTeehjvleJIu9jUB4/edit?_hsenc=p2ANqtz-_OWlMW0roOoywcBNL8BX2Jn1JEprN-sp52yOw4SsBuTlklspGvF0aSBaSCB8FzjKGwh6GY2GrDAjYQ8F2IZZGXnhfQZg&_hsmi=394171744&tab=t.0)
+
+[Deep Learning Adventures - A2A Summit + AI Dev 25 x NYC | Key takeaways](https://www.meetup.com/deep-learning-adventures/events/312689377/)
+* The Agentic Shift (A2A Summit)
+* Building the Future with Andrew Ng (AI Dev 25)
+* Deep Learning Adventures Generative AI [YouTube Playlist](https://www.youtube.com/playlist?list=PL2EBNWEnwV2dn0uu8zhjkvTYR-j7CShv8)
