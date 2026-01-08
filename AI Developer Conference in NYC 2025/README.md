@@ -23,10 +23,10 @@ Here are my deep-dive takeaways from a day of insights, networking, and future-g
 
 ## 1. The New Mantra: "Move Fast and Be Responsible"
 During his opening keynote, Andrew Ng tackled the reality of AI software development head-on. We often hear about the massive productivity gains in coding, but Andrew broke it down with a realistic lens:
-* Building Prototypes: AI allows us to move 10x faster.
-* Production Software: The gain is closer to 50% faster for writing and maintaining code.
+* **Building Prototypes**: AI allows us to move **10x faster**.
+* **Production Software**: The gain is closer to **50% faster** for writing and maintaining code.
 
-The most powerful moment was his update to the old Silicon Valley motto. In the age of Agentic AI, "Move fast and break things" is no longer acceptable. The new standard is "Move Fast and Be Responsible." As we build agents that take actions in the real world, safety and governance aren't optional add-ons; they are architectural requirements.
+The most powerful moment was his update to the old Silicon Valley motto. In the age of Agentic AI, "Move fast and break things" is no longer acceptable. The new standard is **"Move Fast and Be Responsible"**. As we build agents that take actions in the real world, safety and governance aren't optional add-ons; they are architectural requirements.
 
 ![alt text](media/Image%2015.jpg)
 
@@ -35,7 +35,7 @@ Andrew also mentioned that the emphasis in this new AI powered world is not on j
 ![alt text](media/Image%2016.jpg)
 
 ## 2. Closing the Gap: From "Building" to "Deploying"
-One of the recurring themes of the conference was the "Prototype to Production" gap. I captured a slide that perfectly illustrates where the industry currently sits:
+One of the recurring themes of the conference was the **"Prototype to Production"** gap. I captured a slide that perfectly illustrates where the industry currently sits:
 
 ![alt text](media/Image%206.jpg)
 
@@ -43,9 +43,9 @@ Most companies are currently stuck in the "Learning" and "Building" phases (the 
 
 To bridge this gap, we need better infrastructure. The presentation from Mistral AI highlighted exactly what is needed to realize production systems:
 
-* Reliable visibility into performance and quality control through evals.
-* Durable execution for complex workflows.
-* Governed management of AI assets.
+* **Reliable visibility** into performance and quality control through evals.
+* **Durable execution** for complex workflows.
+* **Governed management** of AI assets.
 
 ![alt text](media/Image%2010.jpg)
 
@@ -56,7 +56,7 @@ To bridge this gap, we need better infrastructure. The presentation from Mistral
 ## 3. The Year of the Agent
 If 2023 was the year of the Chatbot, 2025 is undoubtedly the year of the Agent.
 
-I was particularly impressed by the session on CrewAI We are moving past simple prompt-response loops into full Agent Operations Platforms. As shown in the breakdown below, a mature agent system requires layers for observability, management, and connectors before you even get to the LLM.
+I was particularly impressed by the session on [CrewAI](https://www.linkedin.com/company/crewai-inc/) We are moving past simple prompt-response loops into full **Agent Operations Platforms**. As shown in the breakdown below, a mature agent system requires layers for observability, management, and connectors before you even get to the LLM.
 
 This shift requires a new way of thinking. We aren't just engineering prompts anymore; we are engineering systems where AI agents interact with data, cloud providers, and each other to execute complex tasks.
 
@@ -67,15 +67,15 @@ This shift requires a new way of thinking. We aren't just engineering prompts an
 ![alt text](media/Image%207c.jpg)
 
 ## 4. AI in the Real World: Finance & The Workforce
-It wasn't all theory. It was fascinating to see how regulated industries are adopting these tools. BlackRock shared how they are deploying AI in strictly regulated financial environments.
+It wasn't all theory. It was fascinating to see how regulated industries are adopting these tools. [BlackRock](https://www.linkedin.com/company/blackrock/) shared how they are deploying AI in strictly regulated financial environments.
 
 ![alt text](media/Image%208.jpg)
 
-Their approach focuses on RAG (Retrieval-Augmented Generation) for Explainability. In finance, you can't just have an answer; you need to know why the AI gave that answer. Transparent, auditable outputs are the key to unlocking AI adoption in high-stakes sectors.
+Their approach focuses on **RAG (Retrieval-Augmented Generation) for Explainability**. In finance, you can't just have an answer; you need to know why the AI gave that answer. Transparent, auditable outputs are the key to unlocking AI adoption in high-stakes sectors.
 
 ![alt text](media/Image%209.jpg)
 
-But what about the workers? Andrew shared some fascinating data from [Stanford University](https://www.linkedin.com/school/stanford-university/) regarding sentiment. Contrary to the "AI will take our jobs" fear narrative, the data shows that 46.1% of workers want AI assistance.
+**But what about the workers?** Andrew shared some fascinating data from [Stanford University](https://www.linkedin.com/school/stanford-university/) regarding sentiment. Contrary to the "AI will take our jobs" fear narrative, the data shows that **46.1% of workers _want_ AI assistance**.
 
 ![alt text](media/Image%2017.jpg)
 
@@ -84,17 +84,17 @@ The nuance here is critical: Humans want automation for repetitive, tedious task
 ![alt text](media/Image%2014.jpg)
 
 ## 5. Community and Collaboration
-Beyond the slides, the highlight was the community. It was a pleasure to connect with industry leaders like Laurence Moroney, whose work at Google and now as the Director of AI at Arm works has been instrumental in teaching the world to code with AI. I even had the pleasure of interviewing and discussing with Laurence at Deep Learning Adventures a while ago and I enjoy his hands-on teaching style.
+Beyond the slides, the highlight was the community. It was a pleasure to connect with industry leaders like [Laurence Moroney](https://www.linkedin.com/in/laurence-moroney/), whose work at Google and now as the Director of AI at Arm works has been instrumental in teaching the world to code with AI. I even had the pleasure of interviewing and discussing with Laurence at [Deep Learning Adventures](https://meetup.com/deep-learning-adventures) a while ago and I enjoy his hands-on teaching style.
 
 ![alt text](media/Image%202.jpg)
 
-The panel discussion on "Software Development in the Age of AI" was a masterclass in practical advice. Hearing diverse perspectives—from pioneers like Andrew Ng at DeepLearning.AI and Laurence Moroney at Arm to software pioneers at Vercel and Lovable —reinforced that we are all figuring out this new stack together.
+The panel discussion on "Software Development in the Age of AI" was a masterclass in practical advice. Hearing diverse perspectives—from pioneers like **Andrew Ng** at **DeepLearning.AI** and **Laurence Moroney** at **Arm** to software pioneers at **Vercel** and **Lovable** —reinforced that we are all figuring out this new stack together.
 
 ![alt text](media/Image%205.jpg)
 
 ## Final Thoughts
-Leaving the conference, I felt a renewed sense of purpose for Deep Learning Adventures. The technology is moving fast—prototyping is instant, and agents are becoming capable of autonomous action. But the principles of ethical and responsible AI, governance, and community learning remain the bedrock of success.
+Leaving the conference, I felt a renewed sense of purpose for [Deep Learning Adventures](https://meetup.com/deep-learning-adventures). The technology is moving fast—prototyping is instant, and agents are becoming capable of autonomous action. But the principles of ethical and responsible AI, governance, and community learning remain the bedrock of success.
 
-A huge thank you to Andrew Ng, the DeepLearning.AI team, and all the speakers for a truly transformative event.
+A huge thank you to **Andrew Ng**, the **DeepLearning.AI** team, and all the speakers for a truly transformative event.
 
 **Let’s keep building. Let’s keep learning. 🚀**
