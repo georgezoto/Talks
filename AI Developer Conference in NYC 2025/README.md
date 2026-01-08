@@ -80,3 +80,16 @@ The nuance here is critical: Humans want automation for repetitive, tedious task
 
 ## 5. Community and Collaboration
 Beyond the slides, the highlight was the community. It was a pleasure to connect with industry leaders like Laurence Moroney, whose work at Google and now as the Director of AI at Arm works has been instrumental in teaching the world to code with AI. I even had the pleasure of interviewing and discussing with Laurence at Deep Learning Adventures a while ago and I enjoy his hands-on teaching style.
+
+![alt text](media/Image%202.jpg)
+
+The panel discussion on "Software Development in the Age of AI" was a masterclass in practical advice. Hearing diverse perspectives—from pioneers like Andrew Ng at DeepLearning.AI and Laurence Moroney at Arm to software pioneers at Vercel and Lovable —reinforced that we are all figuring out this new stack together.
+
+![alt text](media/Image%205.jpg)
+
+## Final Thoughts
+Leaving the conference, I felt a renewed sense of purpose for Deep Learning Adventures. The technology is moving fast—prototyping is instant, and agents are becoming capable of autonomous action. But the principles of ethical and responsible AI, governance, and community learning remain the bedrock of success.
+
+A huge thank you to Andrew Ng, the DeepLearning.AI team, and all the speakers for a truly transformative event.
+
+**Let’s keep building. Let’s keep learning. 🚀**
