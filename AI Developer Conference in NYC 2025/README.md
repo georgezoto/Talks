@@ -3,8 +3,6 @@ By **George Zoto** Original Article Published On [LinkedIn - George Zoto](https:
 
 ![alt text](media/+Deep%20Learning%20Adventures.png)
 
----
-
 ## Introduction
 
 Ten years ago, [Andrew Ng](https://www.linkedin.com/in/andrewyng/) inspired me to take my deep learning knowledge to the next level. His ability to democratize complex AI concepts changed the trajectory of my career. Five years ago, that inspiration led me to found [Deep Learning Adventures](https://meetup.com/deep-learning-adventures), a community dedicated to navigating the rapidly evolving world of AI together.
@@ -50,4 +48,35 @@ To bridge this gap, we need better infrastructure. The presentation from Mistral
 
 ![alt text](media/Image%2012.jpg)
 
+## 3. The Year of the Agent
+If 2023 was the year of the Chatbot, 2025 is undoubtedly the year of the Agent.
 
+I was particularly impressed by the session on CrewAI We are moving past simple prompt-response loops into full Agent Operations Platforms. As shown in the breakdown below, a mature agent system requires layers for observability, management, and connectors before you even get to the LLM.
+
+This shift requires a new way of thinking. We aren't just engineering prompts anymore; we are engineering systems where AI agents interact with data, cloud providers, and each other to execute complex tasks.
+
+![alt text](media/Image%207.jpg)
+
+![alt text](media/Image%207b.jpg)
+
+![alt text](media/Image%207c.jpg)
+
+## 4. AI in the Real World: Finance & The Workforce
+It wasn't all theory. It was fascinating to see how regulated industries are adopting these tools. BlackRock shared how they are deploying AI in strictly regulated financial environments.
+
+![alt text](media/Image%208.jpg)
+
+Their approach focuses on RAG (Retrieval-Augmented Generation) for Explainability. In finance, you can't just have an answer; you need to know why the AI gave that answer. Transparent, auditable outputs are the key to unlocking AI adoption in high-stakes sectors.
+
+![alt text](media/Image%209.jpg)
+
+But what about the workers? Andrew shared some fascinating data from [Stanford University](https://www.linkedin.com/school/stanford-university/) regarding sentiment. Contrary to the "AI will take our jobs" fear narrative, the data shows that 46.1% of workers want AI assistance.
+
+![alt text](media/Image%2017.jpg)
+
+The nuance here is critical: Humans want automation for repetitive, tedious tasks (like scheduling and data entry) but have low desire for AI to take over high-value, creative, or human-centric tasks. This aligns perfectly with the vision of AI as a copilot rather than a replacement
+
+![alt text](media/Image%2014.jpg)
+
+## 5. Community and Collaboration
+Beyond the slides, the highlight was the community. It was a pleasure to connect with industry leaders like Laurence Moroney, whose work at Google and now as the Director of AI at Arm works has been instrumental in teaching the world to code with AI. I even had the pleasure of interviewing and discussing with Laurence at Deep Learning Adventures a while ago and I enjoy his hands-on teaching style.
